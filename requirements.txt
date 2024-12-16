@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+Pillow
+numpy
+opencv-python-headless
+folium
+streamlit-folium
