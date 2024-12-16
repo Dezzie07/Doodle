@@ -61,8 +61,8 @@ if csv_file:
                 weight=3,
                 popup=folium.Popup(
                     f"Name: {row['Name']}<br>"
-                    f"Medium: {row.get('Medium', 'N/A')}<br>"
                     f"Material: {row.get('Material', 'N/A')}<br>"
+                    f"Medium: {row.get('Medium', 'N/A')}<br>"
                     f"Pressure: {row.get('Pressure (bar)', 'N/A')} bar<br>"
                     f"Temperature: {row.get('Temperature (°C)', 'N/A')} (°C)<br>"
                     f"Length: {row.get('Length (meters)', 'N/A')} meters<br>"
